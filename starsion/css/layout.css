@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+
+#page{
+    /* display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center; */
+    /* height: 800px;
+    width: 100%; */
+}
+
+#home{
+    width: 100%;
+    text-align: center;
+    /* height: 50em; */
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.swiper-wrapper {
+    /* padding-top: 10%; */
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: red;
+}
+
+.bg_img1 {
+    background-image: url(../image//banner/1.jpg);
+}
+
+.bg_img2 {
+    background-image: url(../image/banner/2.jpg);
+}
+
+.bg_img3 {
+    background-image: url(../image/banner/3.jpg);
+}
+
+.bg_img4 {
+    background-image: url(../image/banner/4.jpg);
+}
+
+.baner_content {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    /* background-color: rgba(201, 201, 201, 0.5); */
+    z-index: 999;
+}
+
+.top_name {
+    font-size: 60px;
+    font-weight: 600px;
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    color: #fff;
+    letter-spacing: 3px;
+    margin:0;
+    opacity: 1;
+    /* background-color: red */
+}
+
+.top_intro {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 6px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.top_image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    opacity: 0.8;
+
+}
+.top_wait{
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 6px;
+    margin-top: 1em;
+    /* text-transform: uppercase; */
+}
+
+::-moz-selection {
+    background: rgb(0, 255, 42);
+    color: #222;
+}
+
+::selection {
+    background: rgb(0, 255, 42);
+    color: #222;
+}

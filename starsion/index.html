@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="寄意寒星的个人空间"/>
+    <meta name="Keywords" content="starsion,寄意寒星"/>
+    <meta name="baidu-site-verification" content="npmKU2As5B" />
+    <title>starsion - 寄意寒星</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes"/>
+    <link rel="shortcut icon" href="./image/favicons/favicon.ico">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700'>
+
+    <link rel="stylesheet" href="./css/lib/normalize.css">
+    <link rel="stylesheet" href="./css/lib/normalize.min.css">
+    <link rel="stylesheet" href="./css/lib/swiper-4.3.2.min.css">
+
+    <link rel="stylesheet" href="./css/layout.css" />
+
+
+
+
+</head>
+
+<body>
+    <div id="page">
+        <section id="home">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide bg_img1"></div>
+                    <div class="swiper-slide bg_img2"></div>
+                    <div class="swiper-slide bg_img3"></div>
+                    <div class="swiper-slide bg_img4"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="baner_content">
+                <img class="top_image" src="./image/me/me.jpg">
+                <h1 class="top_name">starsion</h1>
+                <p class="top_intro">a creative & Imaginative boy</p>
+                <p class="top_wait">I'm coming ...</p>
+            </div>
+        </section>
+
+    </div>
+    <script src="./js/lib/jquery-1.11.3.min.js"></script>
+    <script src="./js/lib/jquery.particleground.min.js"></script>
+    <script src="./js/lib/modernizr-2.6.2.min.js"></script>
+    <script src="./js/lib/skrollr.js"></script>
+    <script src="./js/lib/swiper-4.3.2.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            autoplay: true, //等同于以下设置
+            // effect : 'coverflow',
+            autoplay: {
+                delay: 3000,
+                stopOnLastSlide: false,
+                disableOnInteraction: false,
+            },
+        })
+    </script>
+</body>
+
+
+</html>
